@@ -1,4 +1,4 @@
-require_relative 'Person'
+require_relative 'person'
 
 class Students < Person
   attr_accessor :classroom
@@ -9,6 +9,6 @@ class Students < Person
   end
 
   def play_hooky
-    return '¯\(ツ)/¯'
+    '¯\(ツ)/¯'
   end
 end
