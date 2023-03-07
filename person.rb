@@ -15,7 +15,6 @@ class Person
     @age >= 10
   end
 
-
   public
 
   def can_use_services?
